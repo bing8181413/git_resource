@@ -234,3 +234,4 @@ it.next();
 ```
 ##### 是不是跟Promise写法的差别更明显了？ajaxs生成器函数里面的代码完全是同步写法表现。
 ##### 总之，Generator 函数是比Promise写法更科学的一种写法，实践中应当尽量使用Generator 函数。
+###### https://www.jianshu.com/p/e0778b004596
