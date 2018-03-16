@@ -1,4 +1,4 @@
-#####  如何理解ES6的yield ？
+###  如何理解ES6的yield ？
 #### yield 的函数叫 Generator
 ```javascript
 function* gen(x){
