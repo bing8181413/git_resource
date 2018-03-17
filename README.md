@@ -1,4 +1,6 @@
 # git_resource
-工具
+tool
 
-资源
+resource
+
+syntax
