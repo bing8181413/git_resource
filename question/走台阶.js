@@ -28,6 +28,7 @@ let goadd = x => {
     }
 
 }
-let i = Math.random();
+let r = Math.random()*10;
+let i = Math.floor(r) ;
 //  经过对比 结果完全一样
-console.log(step(i), goadd(i));
+console.log(r,i,step(i), goadd(i));
