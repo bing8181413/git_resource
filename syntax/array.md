@@ -2,7 +2,8 @@
 - map 映射
 - filter 
 - concat 
-- splice 
+- slice 切片（start, end ）
+- splice 拼接 (start,deleteCount,addItem)
 - unshift
 - reduce 累加器 function(runningTotal,currentValue){return runningTotal + currentValue}
 - some 
