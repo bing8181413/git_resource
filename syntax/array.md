@@ -6,14 +6,14 @@
 - splice 拼接 (start,deleteCount,addItem)
 - unshift
 - reduce 累加器 function(runningTotal,currentValue){return runningTotal + currentValue}
-- some 
-- every 
+- some  是否有符合条件的  返回 boolean 
+- every 全部符合条件  返回 boolean 
 - forEach 
 - indexOf() 
 - ...Array 展开运算符 
 - shift() 删除第一个
 - unshift() 第一个位置添加元素 .unshift(4, 5);
-- push 
+- push 堆栈
 - pop 删最后一个
 - find (callback=>boolen) 返回第一个元素
 - findIndex (callback=>boolen) 返回第一个索引
