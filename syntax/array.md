@@ -6,6 +6,7 @@
 - splice 拼接 (start,deleteCount,addItem)
 - unshift 首位添加一个数据  队列的方式 先进后出
 - reduce 累加器 function(runningTotal,currentValue){return runningTotal + currentValue}
+	- 高阶函数 hoc 可以使用此方法 
 - some  是否有符合条件的  返回 boolean 
 - every 全部符合条件  返回 boolean 
 - forEach 
