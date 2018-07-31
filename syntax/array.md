@@ -13,7 +13,7 @@
 - indexOf  数组中 有没有参数中的 值  返回第一次出现查找值的位置 -1
 - lastIndexOf 同indexOf  但是是找到最后一个查找值的位置  
 - findIndexOf(func) 找到第一个符合条件的值的位置 IE11以上可使用 参数是 function 比较大小什么都可以
-	- a.findIndex(function(val){return val>3}); 第一个大于 3 的元素的位置
+	- arr.findIndex(function(val){return val>3}); 第一个大于 3 的元素的位置
 - 
 - ...Array 展开运算符 
 - shift() 删除第一个
