@@ -5,7 +5,7 @@
 - 1 JS 原型（prototype）实现继承  
 
 	- 
-	````javascript
+````javascript
 
 	function Fun(){
 		this.name = 'hello';
@@ -16,10 +16,10 @@
 	var a = new Fun();
 	a.fun();
 
-	````
+````
 - 2 构造函数实现继承
 	- 
-	````javascript
+````javascript
 
 	function Parent(name){
 		this.name = name || 'hello default';
@@ -47,10 +47,10 @@
 	var child2 = new Child();
 	child2.say();
 
-	````
+````
 - 3 call apply 继承
 	- 
-	````javascript
+````javascript
 
 	function Person(naem , age){
 		this.name = name;
@@ -69,11 +69,11 @@
 	student.say();
 	student.newSay();
 
-	````
+````
 
 - 4 类继承 ES6 更优雅的方式 也清晰
-	- 
-	````javascript
+
+````javascript
 
 	class Animal{
 		constructor(props){
@@ -99,8 +99,8 @@
 	})
 	myBird.eat()
 	myBird.fly()
-
-	````
+	
+````
 
 
 
