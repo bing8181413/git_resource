@@ -1,8 +1,6 @@
-#### JS 继承，
+#### JS 继承，4 个方式
 
-###### 4 个方式
-
-- 1 JS 原型（prototype）实现继承  
+##### 1 JS 原型（prototype）实现继承  
 
 	- 
 ````javascript
@@ -17,7 +15,7 @@
 	a.fun();
 
 ````
-- 2 构造函数实现继承
+##### 2 构造函数实现继承
 	- 
 ````javascript
 
@@ -48,7 +46,7 @@
 	child2.say();
 
 ````
-- 3 call apply 继承
+##### 3 call apply 继承
 	- 
 ````javascript
 
@@ -71,7 +69,7 @@
 
 ````
 
-- 4 类继承 ES6 更优雅的方式 也清晰
+##### 4 类继承 ES6 更优雅的方式 也清晰
 
 ````javascript
 
