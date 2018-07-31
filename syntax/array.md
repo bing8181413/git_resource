@@ -10,8 +10,10 @@
 - some  是否有符合条件的  返回 boolean 
 - every 全部符合条件  返回 boolean 
 - forEach 
-- indexOf()  数组中 有没有参数中的 值  返回第一次出现查找值的位置 -1
-- lastIndexOf() 同indexOf  但是是找到最后一个查找值的位置  
+- indexOf  数组中 有没有参数中的 值  返回第一次出现查找值的位置 -1
+- lastIndexOf 同indexOf  但是是找到最后一个查找值的位置  
+- findIndexOf(func) 找到第一个符合条件的值的位置 IE11以上可使用 参数是 function 比较大小什么都可以
+- 
 - ...Array 展开运算符 
 - shift() 删除第一个
 - unshift() 第一个位置添加元素 .unshift(4, 5);
