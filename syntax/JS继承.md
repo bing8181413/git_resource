@@ -3,7 +3,11 @@
 ###### 4 个方式
 
 - 1 JS 原型（prototype）实现继承  
-	- function Fun(){
+
+	- 
+	````javascript
+
+	function Fun(){
 		this.name = 'hello';
 	}
 	Fun.prototype.fun = function(){
@@ -12,8 +16,12 @@
 	var a = new Fun();
 	a.fun();
 
+	````
 - 2 构造函数实现继承
-	- function Parent(name){
+	- 
+	````javascript
+
+	function Parent(name){
 		this.name = name || 'hello default';
 		this.sayName = function(){
 			console.log(this.name);
@@ -39,8 +47,12 @@
 	var child2 = new Child();
 	child2.say();
 
+	````
 - 3 call apply 继承
-	- function Person(naem , age){
+	- 
+	````javascript
+
+	function Person(naem , age){
 		this.name = name;
 		this.age = age;
 		this.say = function(){
@@ -57,8 +69,13 @@
 	student.say();
 	student.newSay();
 
+	````
+
 - 4 类继承 ES6 更优雅的方式 也清晰
-	- class Animal{
+	- 
+	````javascript
+
+	class Animal{
 		constructor(props){
 			this.name = props.name || '未知';
 		}
@@ -82,6 +99,8 @@
 	})
 	myBird.eat()
 	myBird.fly()
+
+	````
 
 
 
