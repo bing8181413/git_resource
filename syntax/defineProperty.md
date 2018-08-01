@@ -27,4 +27,6 @@ Object.keys(o)  // ["a", "b", "c"]
 
 JSON.stringify(o // => "{a:1,b:2,c:3}"
 ```
+- 至于for...in循环和Object.keys方法的区别，在于前者包括对象继承自原型对象的属性，而后者只包括对象本身的属性
+
 ##### 循环的时候不会展示 enumerable 属性为 false 的数据 
