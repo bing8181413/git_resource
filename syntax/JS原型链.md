@@ -2,6 +2,7 @@
 
 ##### 先看一张图 
 ![prototype](/prototype1.png)
+<img src="https://github.com/bing8181413/git_resource/blob/master/syntax/prototype1.png">
 
 
  - JS 原型链
