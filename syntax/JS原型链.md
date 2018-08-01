@@ -1,7 +1,7 @@
 ### JS 原型
 
 ##### 先看一张图 
-![avatar](/user/desktop/doge.png)
+![prototype](/prototype1.png)
 
 
  - JS 原型链
