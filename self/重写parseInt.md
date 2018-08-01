@@ -2,6 +2,8 @@
 
 ![prototype](https://github.com/bing8181413/git_resource/blob/master/self/parseInt.png)
 
+- 图片由 regexper-static 提供支持 ， 本地起个node 服务 
+
 ```javascript
 
 
