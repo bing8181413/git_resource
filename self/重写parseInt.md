@@ -1,5 +1,6 @@
 #### 直接上代码  
-##### author :houbingbing
+
+![prototype](https://github.com/bing8181413/git_resource/blob/master/self/parseInt.png)
 
 ```javascript
 
