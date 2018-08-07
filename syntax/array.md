@@ -22,5 +22,7 @@
 - pop 删最后一个
 - find (callback=>boolen) 返回第一个元素
 - findIndex (callback=>boolen) 返回第一个索引
--map() 方法创建一个新数组
+- map() 方法创建一个新数组
+- fill Array(10).fill(1) == [1,1,1,1..... x10 ]; 创建数组填充进去同样的值
+- from Array.from() 接受一个数组或者迭代器 生成一个数组
 
