@@ -1,7 +1,8 @@
 ### Object.create()和new object()和{}的区别
+
 ```javascript
 
-var o = Object.create(Object.prototype, {
+var o = Object.create(Object.prototype,{
   // foo会成为所创建对象的数据属性
   foo: { 
     writable:true,
@@ -18,7 +19,9 @@ var o = Object.create(Object.prototype, {
   }
 });
 ```
-### 总结：使用Object.create()是将对象继承到__proto__属性上
+
+### 总结：使用Object.create()
+
 ```javascript
 
 var test = Object.create({x:123,y:345});
@@ -38,5 +41,6 @@ console.log(test2);//{x:123,y:345};
 console.log(test2.x);//123
 console.log(test2.__proto__.x);//undefined
 console.log(test2.__proto__.x === test2.x);//false
+
 
 ```
